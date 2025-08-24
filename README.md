@@ -16,6 +16,21 @@ This portfolio highlights selected projects from my OMSCS coursework and persona
 
 ---
 
+## Courses Taken
+
+| Course | Course content and description |
+|--------|--------------------------------|
+|Computer Vision| --- |
+|Artificial Intelligence| --- |
+|Machine Learning| --- |
+|Deep Learning| --- |
+|Grad intro to OS| --- |
+|Robotics AI techniques| --- |
+|ML for Trading| --- |
+|Intro to Bayes Stats| --- |
+|Intro to Grad Algorithms| --- |
+|Natural Language| --- |
+
 ## 📄 Resume
 - [Download PDF](resume.pdf)
 - [LinkedIn](https://linkedin.com/in/yourname)

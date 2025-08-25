@@ -20,7 +20,7 @@ This portfolio highlights selected projects from my OMSCS coursework and persona
 
 | Course | Course content and description |
 |--------|--------------------------------|
-|Computer Vision| --- |
+|Computer Vision| Image processing - noise and filters (gaussian, median etc), correlation vs convolution, edge detection, Hough transforms, Fourier transforms and aliasing <br> Camera models and views - Modeling projections using Homogeneous coordinates, Stereo, epipolar constraints, Homography - essential and fundamental matrix <br> Features and matching - corner detection (harris detector, SIFT (scale invariant)), RANSAC <br> Lightness and Brightness - Specular reflection and BRDF <br> Image Motion - Motion estimation techniques - feature based, direct, dense methods, optic flow, Lucas and Kanade, Heirarchical LK, image pyramids <br> Motion and Tracking - Kalman Filter, Particle Filter <br> Classification and Recognition - eigenfaces, discriminative classifiers (Boosting, NN, SVMs), Viola Jones detector, Hidden Markov models  |
 |Artificial Intelligence| --- |
 |Machine Learning| --- |
 |Deep Learning| --- |

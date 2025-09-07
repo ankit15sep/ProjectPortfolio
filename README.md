@@ -27,8 +27,8 @@ I’m a mechanical engineer working in the EV industry and a current Georgia Tec
 |Robotics AI techniques| >Localization and Tracking using Kalman and Particle filters <br> >Planning and search with A*, Dynamic programming - Value and Policy iterations <br> >PID controls <br> >Simultaneous localization and Mapping (SLAM)|
 |ML for Trading| >Manipulating Financial Data in Python - Pandas <br> >Computational Investing - Market mechanics, Company worth and CAPM, Technical analysis - Rolling stats, Bollinger Bands, Portfolio optimization <br> >Machine Learning Algorithms for Trading - Decision trees, Neural networks, Random forest, Bagging |
 |Intro to Bayes Stats|>Probability review - Conditioning, Independence, Total Probability, Chain rule, Bayes Formula, Bayes Nets <br> >Basic distributions, Bayes Theorem - Conjugate families, Bayesian Inference for conjugate cases - Bayes Estimate, Credible Sets, Bayesian testing and prediction <br> >Prior Elicitation, Empirical Bayes <br> Bayesian computation - MCMC, Metropolis algorithm, Gibbs Sampling <br> Hierarchical Models - Informed Prior, Bayesian Linear Models - ANOVA, Bayesian Multiple regression <br> >Missing data - Censored data using PyMC <br> Model checking - DIC, PPC|
-|Intro to Grad Algorithms| --- |
-|Natural Language| --- |
+|Intro to Grad Algorithms| Divide and conquer algorithms, Dynamic Programming, Graph Algorithms, Max - Flow Algorithms, Linear Programming, NP Complexity Theory |
+|Natural Language (Current)| Intro to NLP, Classification, Language Models - RNN, LSTM, Seq2Seq Attention, Perplexity, Modern Neural Architectures - Bert, Transformers, Summarization, Machine reading, Machine Translation |
 
 ## 📄 Resume
 - [Download PDF](resume.pdf)

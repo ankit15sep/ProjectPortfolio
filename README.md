@@ -32,7 +32,7 @@ I’m a mechanical engineer working in the EV industry and a current Georgia Tec
 
 ## 📄 Resume
 - [Download PDF](resume.pdf)
-- [LinkedIn](https://www.linkedin.com/in/ankit-kumar-3595a535/)
+- [LinkedIn][https://www.linkedin.com/in/ankit-kumar-3595a535/]
 - [GitHub](https://github.com/yourusername)
 
 ---

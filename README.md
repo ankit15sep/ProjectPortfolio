@@ -1,7 +1,6 @@
 # Hi, I'm Ankit
 
-I'm a mechanical engineer by day and an OMSCS student when not working on EVs specializing in **Machine Learning**.  
-This portfolio highlights selected projects from my OMSCS coursework and personal work.
+I’m a mechanical engineer working in the EV industry and a current Georgia Tech OMSCS student specializing in Machine Learning. This portfolio showcases a selection of projects from my coursework and personal explorations, highlighting the intersection of engineering and AI.
 
 ---
 

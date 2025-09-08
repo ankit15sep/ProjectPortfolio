@@ -103,7 +103,7 @@ Convolutional Neural networks are a Deep learning architecture
  along with SVHN to eliminate false positives.
 
 <p align="center">
-  <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/DataSet.png" width="200"/> <br>
+  <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/DataSet.png" width="500"/> <br>
   <em>Figure F1: Augmented SVHN dataset
 </p>
 
@@ -137,11 +137,12 @@ showing up. To counter this, a second classifier step was used to eliminate fals
  overall pipeline
 
  <p align="center">
-  <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/DataSet.png" width="200"/> <br>
-  <em>Figure F1: Augmented SVHN dataset
+  <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/Pipeline.png" width="500"/> <br>
+  <em>Figure F2: Overall pipeline
 </p>
  
 Digit classification and detection - (https://drive.google.com/file/d/13VlsIiL7V8To27km389ZbwALut2mUxDG/view?usp=drive_link)
+
 
 
 

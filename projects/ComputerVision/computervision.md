@@ -90,3 +90,6 @@ More content coming soon
 
 ## F) CNN Digit classification and Detection
 
+Digit classification and detection - (https://drive.google.com/file/d/13VlsIiL7V8To27km389ZbwALut2mUxDG/view?usp=drive_link)
+
+

@@ -61,12 +61,12 @@ Tracking image shift - More details coming soon
 More content coming soon
 
 <p align="center">
-  <img src="../../assets/ComputerVision/03_Gaussian_and_LaplacianPyramid/ps4-2-a-1.jpg" width="200"/><br>
+  <img src="../../assets/ComputerVision/03_Gaussian_and_LaplacianPyramid/ps4-2-a-1.png" width="200"/><br>
   <em>Figure C1: Gaussian Pyramid
 </p>
 
 <p align="center">
-  <img src="../../assets/ComputerVision/03_Gaussian_and_LaplacianPyramid/ps4-2-b-1.jpg" width="200"/><br>
+  <img src="../../assets/ComputerVision/03_Gaussian_and_LaplacianPyramid/ps4-2-b-1.png" width="200"/><br>
   <em>Figure C2: Laplacian Pyramid
 </p>
 
@@ -84,12 +84,64 @@ More content coming soon
 More content coming soon
 
 <p align="center">
-  <img src="../../assets/ComputerVision/04_FaceDetection/ps6-1-a-1.png" width="200"/> <img src="../../assets/ComputerVision/04_FaceDetection/ps6-1-b-1.png" width="200"/> <br>
+  <img src="../../assets/ComputerVision/04_FaceDetection/ps6-1-a-1.jpg" width="200"/> <img src="../../assets/ComputerVision/04_FaceDetection/ps6-1-b-1.jpg" width="200"/> <br>
   <em>Figure E1: Average face and Eigen faces
 </p>
 
 ## F) CNN Digit classification and Detection
 
+Convolutional Neural networks are a Deep learning architecture
+ which help in image recognition, object detection and localization. When using
+ just neural networks for this task, the parameter size becomes huge as each pixel
+ is considered as a feature. CNNs help to make the localized pa ern in an image
+ translation invariant, and this helps reduce the number of parameters
+ drastically. The feature space is then proportional to the filter size and not the
+ number of pixels in an image.
+
+ For this project, SVHN dataset has been trained with VVG-16 CNN to recognize
+ a sequence of digits in an image. A non digit classifier with label 10 was trained
+ along with SVHN to eliminate false positives.
+
+<p align="center">
+  <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/DataSet.png" width="200"/> <br>
+  <em>Figure F1: Augmented SVHN dataset
+</p>
+
+### METHOD and ALGORITHM
+ The MSER algorithm is used for localization and digits are classified using image
+ pyramid and sliding window on the localized patch. Around 50% of the
+ bounding boxes returned from MSER are eliminated based on the box
+ dimensions and the location in the image. If the box is at the corner of the image,
+ the box is not considered. Also there is an area constraint so that very small boxes
+ are not a part of classification. This reduces the number of boxes to be classified
+ significantly
+ A non-digit classifier with label 10, was trained along with SVHN to eliminate
+ the false positives. The images were taken from the internet and from the
+ examples used in the report. Around 5500, 32 x 32 examples were trained and
+ data augmentation was done by adding random flips, affine transforms, noise,
+ and random crop. The validation set had around 1500 examples (appendix figure
+ A-1)
+ The overall approach was based on a 2-step classification. The aim was to localize
+ the ROI first and then run a sliding window. Even though the network was
+ trained with non-digits, a few false positives with high confidence were still
+ 2
+showing up. To counter this, a second classifier step was used to eliminate false
+ positive ROIs. In the second classifier step, the high confidence probabilities were
+ identified by “moving box approach”, where each bounding box was made
+ bigger and perturbed by delta in up, down, left, right and diagonal directions. If
+ the box was a false positive, it’s highly likely that moving box will identify a few
+ regions as not a digit, whereas in case of digits, small perturbations would still
+ say they are digits. This helped get the correct ROIs for the sliding window
+ approach. Window was resized to 32 x 128 using image pyramids and strides of 4
+ and 16 were used to accurately predict the digits. Figure 2 below shows the
+ overall pipeline
+
+ <p align="center">
+  <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/DataSet.png" width="200"/> <br>
+  <em>Figure F1: Augmented SVHN dataset
+</p>
+ 
 Digit classification and detection - (https://drive.google.com/file/d/13VlsIiL7V8To27km389ZbwALut2mUxDG/view?usp=drive_link)
+
 
 

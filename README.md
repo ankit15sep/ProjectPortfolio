@@ -8,7 +8,7 @@ I’m a mechanical engineer working in the EV industry and a current Georgia Tec
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| [Project 1](projects/ComputerVision/computervision.md) | Short 1-liner summary | Python, PyTorch |
+| [Project 1](projects/ComputerVision/computervision.md) | My projects from computer vision coursework  | Python - OpenCV, Numpy, PyTorch |
 | [Project 2](projects/project2.md) | Short 1-liner summary | Pandas, NumPy |
 | [Project 3](projects/project3.md) | Short 1-liner summary | RL, OpenAI Gym |
 | [Project 4](projects/project4.md) | Short 1-liner summary | C++, ROS |

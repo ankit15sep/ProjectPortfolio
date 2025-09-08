@@ -4,14 +4,14 @@ This page covers some of my deep learning projects. The code for these projects 
 ## A) GradCam
 More details coming soon
 <p align="center">
-  <img src="../../assets/DeepLearning/GradCam/GradCam.png" width="200"/><br>
+  <img src="../../assets/DeepLearning/GradCam/GradCam.png" width="500"/><br>
   <em>Figure A1: Grad Cam</em>
 </p>
 
 ## B) Neural Style Transfer
 More details coming soon
 <p align="center">
-  <img src="../../assets/DeepLearning/StyleTransfer/StyleTransfer.png" width="200"/><br>
+  <img src="../../assets/DeepLearning/StyleTransfer/StyleTransfer.png" width="500"/><br>
   <em>Figure A1: Grad Cam</em>
 </p>
 
@@ -38,3 +38,4 @@ modal-Vilbert, during testing showed an accuracy close to 0.7,which is slightly 
 cross-modal retrieval could be made to enhance the multi-modal models’ performances. While multi-modal models such as MMBT,ViLBERT,and 
 ViLBERT-CC perform better than unimodal models such as ImageGrid, the improvement is not as significant as expected. This could be because the dataset contains only
  around 10,000 images. In the context of deep learning, this is a very small dataset.Using larger and more diverse datasets could lead to better cross-modal retrieval performance. However,obtaining more labeled images can be a very expensive task both time-wise and cost-wise. Also, improving the attention mechanisms and fusion methods architecturally or by further fine-tuning different combinations of hyperparameters, such as dropout rate,word and image embedding sizes, and attention parameters, could lead to an improvement in accuracy
+

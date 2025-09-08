@@ -140,8 +140,15 @@ showing up. To counter this, a second classifier step was used to eliminate fals
   <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/Pipeline.png" width="500"/> <br>
   <em>Figure F2: Overall pipeline
 </p>
- 
-Digit classification and detection - (https://drive.google.com/file/d/13VlsIiL7V8To27km389ZbwALut2mUxDG/view?usp=drive_link)
+
+ <p align="center">
+  <img src="../../assets/ComputerVision/06_CNN_DigitClassification_and_Detection/classification.png" width="500"/> <br>
+  <em>Figure F3: Digit detection and classification on few examples
+</p>
+
+
+Digit classification and detection video tracking - (https://drive.google.com/file/d/13VlsIiL7V8To27km389ZbwALut2mUxDG/view?usp=drive_link)
+
 
 
 

@@ -8,7 +8,7 @@ I’m a mechanical engineer working in the EV industry and a current Georgia Tec
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| [Project 1](projects/project1.md) | Short 1-liner summary | Python, PyTorch |
+| [Project 1](projects/ComputerVision/computervision.md) | Short 1-liner summary | Python, PyTorch |
 | [Project 2](projects/project2.md) | Short 1-liner summary | Pandas, NumPy |
 | [Project 3](projects/project3.md) | Short 1-liner summary | RL, OpenAI Gym |
 | [Project 4](projects/project4.md) | Short 1-liner summary | C++, ROS |
@@ -32,7 +32,7 @@ I’m a mechanical engineer working in the EV industry and a current Georgia Tec
 
 ## 📄 Resume
 - [Download PDF](resume.pdf)
-- [LinkedIn](https://linkedin.com/in/yourname)
+- [LinkedIn][(https://www.linkedin.com/in/ankit-kumar-3595a535/)]
 - [GitHub](https://github.com/yourusername)
 
 ---

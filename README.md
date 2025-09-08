@@ -8,11 +8,11 @@ I’m a mechanical engineer working in the EV industry and a current Georgia Tec
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| [CV Projects](projects/ComputerVision/computervision.md) | My projects from computer vision coursework  | Python - OpenCV, Numpy, PyTorch |
+| [CV Projects](projects/ComputerVision/computervision.md) - Fall 2021 | My projects from computer vision coursework  | Python - OpenCV, Numpy, PyTorch |
 | [Project 2](https://github.com/ankit15sep/Workout_and_email) | Creates a workout schedule and sends daily email with exercise gifs embedded | Python |
-| [DeepLearning Projects](projects/DeepLearning/deeplearning.md) |  My projects from deep learning coursework | Python, Pytorch |
-| [Robotics Projects](projects/Robotics-AITechniques/rait.md) | My projects from robotics AI technique coursework | Python |
-| [Bayesian Stats Project](projects/BayesianStats/bayesianstats.md) | My projects from bayesian stats coursework | Python - PyMC|
+| [DeepLearning Projects](projects/DeepLearning/deeplearning.md) - Spring 2023 |  My projects from deep learning coursework | Python, Pytorch |
+| [Robotics Projects](projects/Robotics-AITechniques/rait.md) - Spring 2024| My projects from robotics AI technique coursework | Python |
+| [Bayesian Stats Project](projects/BayesianStats/bayesianstats.md) - Fall 2024 | My projects from bayesian stats coursework | Python - PyMC|
 
 ---
 
